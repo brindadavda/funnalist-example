@@ -1,42 +1,117 @@
-Act as a Funnelish expert and UI builder.
+Prompt Title: Create & Visualize Funnelish Pages
 
-Your task is to generate step-by-step instructions and layout structure for building a high-converting funnel page.
+Prompt Instructions for AI:
+You are an expert Funnelish designer and instructor. Generate step-by-step instructions for building high-converting funnels in Funnelish. Keep the guidance beginner-friendly, but make the work look advanced, conversion-focused, and interview-ready.
 
-Requirements:
+For every task below, always provide all of the following:
+- **Goal**
+- **Text instructions** with:
+  - clear step-by-step actions inside Funnelish
+  - expected outcome
+  - common mistakes
+  - pro tips
+  - interviewer checks
+- **Images needed**:
+  - one desktop view brief
+  - one mobile view brief
+- **Short demo video storyboard**:
+  - 5–10 seconds
+  - describe the exact interaction to show, such as scrolling, button clicks, layout edits, or switching to mobile preview
 
-1. Create a landing page with:
+Global quality rules:
+- Prioritize high-converting layouts with strong hierarchy and obvious CTAs.
+- Use correct Funnelish structure language: **Section → Row → Element**.
+- Mention responsive adjustments where relevant.
+- Keep instructions simple enough for a beginner to follow without losing advanced conversion thinking.
+- Avoid vague advice like “make it nice”; instead, specify what to change and why.
+- Whenever possible, mention what the interviewer is likely evaluating.
 
-   * Hero section (headline, subheadline, product image, CTA button)
-   * Product section (image, name, price, buy button, urgency text)
-   * Clean spacing and alignment
+Tasks to cover:
 
-2. Ensure:
+1. **Create a Funnel Page from Scratch**
+   - Create a new funnel.
+   - Add a hero section with headline, subheadline, product image, and CTA button.
+   - Expected outcome: clean layout, CTA clearly visible.
+   - Images: desktop hero layout, mobile stacked version.
+   - Video demo: scroll through hero section and click **Buy Now**.
+   - Common mistakes: misaligned elements, messy structure.
+   - Interviewer checks: drag-and-drop skills, section/row understanding.
 
-   * Full-width responsive layout
-   * Mobile optimization (stacked layout, adjusted font sizes)
-   * Conversion-focused design
+2. **Full Width Section**
+   - Make a section full width.
+   - Include these steps:
+     - Section width → 100%
+     - Enable Stretch Section
+     - Remove container max-width
+   - Images: before fixed-width layout, after full-width layout.
+   - Video demo: stretching the section and previewing on desktop + mobile.
+   - Common mistakes: leaving fixed width enabled.
+   - Interviewer checks: layout problem solving.
 
-3. Include:
+3. **Mobile Responsive Design**
+   - Make the page mobile-friendly.
+   - Include these steps:
+     - stack columns
+     - resize images
+     - adjust font sizes
+     - hide unnecessary elements
+   - Images: mobile version screenshot and responsive hero/product section.
+   - Video demo: mobile viewport preview and column stacking.
 
-   * Section → Row → Element breakdown
-   * Recommended padding, font sizes, and colors
-   * CTA placement strategy
+4. **Add & Customize Elements**
+   - Add Heading, Paragraph, Button, and Image.
+   - Change color, font, spacing, and alignment.
+   - Images: before/after styling comparison.
+   - Video demo: button hover effect and color/font updates.
 
-4. Add:
+5. **Duplicate & Reuse Section**
+   - Duplicate a section and modify its content.
+   - Images: original versus duplicated version.
+   - Video demo: copy/paste or duplicate action plus live content update.
 
-   * One duplicated section variation
-   * Basic custom HTML button example
+6. **Build Simple Product Section**
+   - Add product image, product name, price, and Buy button.
+   - Bonus: add urgency text such as **Limited Offer**.
+   - Images: desktop + mobile product section layouts.
+   - Video demo: hover effect on product and clicking the Buy button.
 
-5. Also explain:
+7. **Add Custom HTML/CSS**
+   - Insert custom code.
+   - Use this example:
+     ```html
+     <button style="background:red;color:white;">Buy Now</button>
+     ```
+   - Images: custom button appearance.
+   - Video demo: button click animation.
 
-   * Common mistakes beginners make
-   * Quick fixes for layout issues
-   * How to build this in under 15 minutes
+8. **Fix Layout Problem**
+   - Adjust spacing, margin, and alignment.
+   - Images: before/after spacing fixes.
+   - Video demo: live margin/padding adjustment.
 
-Output format:
+9. **Multi-Step Funnel**
+   - Build:
+     - Page 1: Landing
+     - Page 2: Checkout
+     - Page 3: Thank You
+   - Images: step-by-step screenshots in desktop + mobile views.
+   - Video demo: clicking through the full funnel flow.
 
-* Structured steps
-* Clear hierarchy
-* Practical tips for interview scenario
+10. **Speed Task**
+   - Build a simple page in 10–15 minutes.
+   - Video demo: time-lapse showing drag-and-drop workflow.
 
-Keep it simple, actionable, and optimized for speed.
+Output requirements:
+- Use numbered sections from 1 to 10.
+- Inside each section, use these subheadings exactly:
+  - **Goal**
+  - **Steps**
+  - **Expected Outcome**
+  - **Common Mistakes**
+  - **Pro Tips**
+  - **Interviewer Checks**
+  - **Desktop Image Brief**
+  - **Mobile Image Brief**
+  - **Video Storyboard (5–10s)**
+- Keep the tone practical, precise, and interview-focused.
+- Do not skip the image briefs or video storyboards.

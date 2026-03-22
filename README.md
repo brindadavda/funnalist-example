@@ -1,5 +1,12 @@
 # Funnelish Interview Practice Lab
 
+## New in this repo
+
+- `guides/funnelish-visual-playbook.md`: a complete 10-task walkthrough for building and visualizing Funnelish interview exercises, including desktop/mobile image briefs and short demo video storyboards.
+- `prompts/funnelish-codex-prompt.txt`: an expanded reusable prompt that tells an AI exactly how to generate the step-by-step Funnelish guidance, visuals, and 5–10 second demo concepts.
+
+---
+
 This repository gives you a practical, repeatable way to practice a Funnelish-style interview task.
 
 ## What you'll practice

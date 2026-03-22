@@ -1,0 +1,42 @@
+Act as a Funnelish expert and UI builder.
+
+Your task is to generate step-by-step instructions and layout structure for building a high-converting funnel page.
+
+Requirements:
+
+1. Create a landing page with:
+
+   * Hero section (headline, subheadline, product image, CTA button)
+   * Product section (image, name, price, buy button, urgency text)
+   * Clean spacing and alignment
+
+2. Ensure:
+
+   * Full-width responsive layout
+   * Mobile optimization (stacked layout, adjusted font sizes)
+   * Conversion-focused design
+
+3. Include:
+
+   * Section → Row → Element breakdown
+   * Recommended padding, font sizes, and colors
+   * CTA placement strategy
+
+4. Add:
+
+   * One duplicated section variation
+   * Basic custom HTML button example
+
+5. Also explain:
+
+   * Common mistakes beginners make
+   * Quick fixes for layout issues
+   * How to build this in under 15 minutes
+
+Output format:
+
+* Structured steps
+* Clear hierarchy
+* Practical tips for interview scenario
+
+Keep it simple, actionable, and optimized for speed.
